@@ -1,0 +1,6 @@
+a = list(map(int, input().split()))
+b = list(map(lambda x: x ** 0.5 == int(i), a))
+c = list(filter(lambda x: x ** (0.5) == int(i), a))
+print(a)
+print(b)
+print(c)
