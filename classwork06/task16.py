@@ -1,0 +1,1 @@
+f.groupby(["State"]).agg({"Total day charge": "mean"}).sort_values(by="Total day charge")

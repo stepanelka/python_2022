@@ -1,5 +1,5 @@
-d = {i: chr(i) for i in range(97, 123)}
-print(d)
-for j in range(65, 91):
-  d[j] = chr(j)
-print(d)
+words = input().split()
+a = set(words[1])
+b = set(words[2])
+c = set(words[0])
+print(a, b, c)
