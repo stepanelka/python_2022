@@ -12,7 +12,7 @@ class Tetris:
     y = 20
     zoom = 40
     figure = None
-
+#сетка(поле)
     def __init__(self, n2, n1):
         self.n2 = n2
         self.n1 = n1
